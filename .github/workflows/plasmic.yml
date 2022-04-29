@@ -1,6 +1,7 @@
 # Plasmic workflow v3
 name: Sync, build and deploy Plasmic app
-
+permissions:
+  contents: write
 on:
   repository_dispatch:
     types: [plasmic]
