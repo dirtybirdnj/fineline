@@ -1,0 +1,1077 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "eiC1VCbma8t6iMexZerqLa",
+      "projectApiToken": "2xfpaNVhKMubqhWULgUJXE6dh9lqU7JPaJrwLSo0F2Q5glfikXrdfgNuO68djChRFw10Qyz0zKEZ6MkrLGVQ",
+      "projectName": "commerce-swell",
+      "version": "5.0.9",
+      "cssFilePath": "plasmic/commerce_swell/plasmic_commerce_swell.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "plasmic/commerce_swell/PlasmicGlobalContextsProvider.jsx",
+      "codeComponents": [
+        {
+          "id": "tbDZqxoBkbo",
+          "name": "CommerceProviderComponent",
+          "componentImportPath": "@plasmicpkgs/commerce-swell"
+        }
+      ]
+    },
+    {
+      "projectId": "xp1p7dmg329XVLHyuEUxD2",
+      "projectApiToken": "lKmNlwaV4Oj0MW88hxVZ5o5DRgZ8MIE6XICXwHEIus3QTO9JqH6779kr2KkJg7S816qbjShlBQ8PzLYAK4Q",
+      "projectName": "commerce",
+      "version": "10.3.2",
+      "cssFilePath": "plasmic/commerce/plasmic_commerce.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "vU2jzVAnFP",
+          "name": "ProductCollection",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "S1F4q0wN6b",
+          "name": "ProductTextField",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "_PaJxGc8gf",
+          "name": "ProductPriceComponent",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "qpULM0wwWW",
+          "name": "ProductMedia",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "NR7KYUJmEqx",
+          "name": "AddToCartButton",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "CjfQQrwiHjD",
+          "name": "ProductQuantity",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "i3vHZr7erKX",
+          "name": "ProductVariantPicker",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "UGhhaf1AiUhF",
+          "name": "CartComponent",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "1gYJf_XBZUAD",
+          "name": "ProductBox",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "t362fgW6eiCe",
+          "name": "ProductLink",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "ny07p45F84c_",
+          "name": "CategoryCollection",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "hzqiq--xdG5T",
+          "name": "CategoryField",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "fA0CIfqZOwRH",
+          "name": "CategoryLink",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "5k_ZYl4EkcYi",
+          "name": "ProductSlider",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "yOXBNIAJxzUq",
+          "name": "CategoryMedia",
+          "componentImportPath": "@plasmicpkgs/commerce"
+        }
+      ]
+    },
+    {
+      "projectId": "enauC2JUZgx5ZyyeLXbdDM",
+      "projectApiToken": "v55r1MdC706NhucbUH1S2yfThtWGnhkPH1ZJszIHRIPOsXQh6fULIhgqRR799hU5UvUmoEm6fT0GoVYRNA",
+      "projectName": "Fine Line Charters",
+      "version": "latest",
+      "cssFilePath": "plasmic/fine_line_charters/plasmic_fine_line_charters.module.css",
+      "components": [
+        {
+          "id": "CLk38g2D_8tHW",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "enauC2JUZgx5ZyyeLXbdDM",
+          "renderModuleFilePath": "plasmic/fine_line_charters/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "../pages/index.jsx"
+          },
+          "cssFilePath": "plasmic/fine_line_charters/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "O2ZVKHEd6XJZd",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "enauC2JUZgx5ZyyeLXbdDM",
+          "renderModuleFilePath": "plasmic/fine_line_charters/PlasmicButton.jsx",
+          "importSpec": {
+            "modulePath": "Button.jsx"
+          },
+          "cssFilePath": "plasmic/fine_line_charters/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "2HqepKbKAMtfM",
+          "name": "ProductCard",
+          "type": "managed",
+          "projectId": "enauC2JUZgx5ZyyeLXbdDM",
+          "renderModuleFilePath": "plasmic/fine_line_charters/PlasmicProductCard.jsx",
+          "importSpec": {
+            "modulePath": "ProductCard.jsx"
+          },
+          "cssFilePath": "plasmic/fine_line_charters/PlasmicProductCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "4sCe1RdzCyGEz",
+          "name": "Value",
+          "type": "managed",
+          "projectId": "enauC2JUZgx5ZyyeLXbdDM",
+          "renderModuleFilePath": "plasmic/fine_line_charters/PlasmicValue.jsx",
+          "importSpec": {
+            "modulePath": "Value.jsx"
+          },
+          "cssFilePath": "plasmic/fine_line_charters/PlasmicValue.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "oGLkckA1izFzxr",
+          "name": "Item",
+          "type": "managed",
+          "projectId": "enauC2JUZgx5ZyyeLXbdDM",
+          "renderModuleFilePath": "plasmic/fine_line_charters/PlasmicItem.jsx",
+          "importSpec": {
+            "modulePath": "../pages/item.jsx"
+          },
+          "cssFilePath": "plasmic/fine_line_charters/PlasmicItem.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "IVyjr7QDv09hRO",
+          "name": "NavBar",
+          "type": "managed",
+          "projectId": "enauC2JUZgx5ZyyeLXbdDM",
+          "renderModuleFilePath": "plasmic/fine_line_charters/PlasmicNavBar.jsx",
+          "importSpec": {
+            "modulePath": "NavBar.jsx"
+          },
+          "cssFilePath": "plasmic/fine_line_charters/PlasmicNavBar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "N_JXub6VjSTVKo",
+          "name": "Price",
+          "type": "managed",
+          "projectId": "enauC2JUZgx5ZyyeLXbdDM",
+          "renderModuleFilePath": "plasmic/fine_line_charters/PlasmicPrice.jsx",
+          "importSpec": {
+            "modulePath": "Price.jsx"
+          },
+          "cssFilePath": "plasmic/fine_line_charters/PlasmicPrice.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "HiLdkZiLn1r_3-",
+          "name": "Separator",
+          "type": "managed",
+          "projectId": "enauC2JUZgx5ZyyeLXbdDM",
+          "renderModuleFilePath": "plasmic/fine_line_charters/PlasmicSeparator.jsx",
+          "importSpec": {
+            "modulePath": "Separator.jsx"
+          },
+          "cssFilePath": "plasmic/fine_line_charters/PlasmicSeparator.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "eKObOqjQGvOV6B",
+          "name": "Footer",
+          "type": "managed",
+          "projectId": "enauC2JUZgx5ZyyeLXbdDM",
+          "renderModuleFilePath": "plasmic/fine_line_charters/PlasmicFooter.jsx",
+          "importSpec": {
+            "modulePath": "Footer.jsx"
+          },
+          "cssFilePath": "plasmic/fine_line_charters/PlasmicFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "NN00kAAArQ2R_R",
+          "name": "CartItem",
+          "type": "managed",
+          "projectId": "enauC2JUZgx5ZyyeLXbdDM",
+          "renderModuleFilePath": "plasmic/fine_line_charters/PlasmicCartItem.jsx",
+          "importSpec": {
+            "modulePath": "CartItem.jsx"
+          },
+          "cssFilePath": "plasmic/fine_line_charters/PlasmicCartItem.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "NuqBXdDI1RJ8nA",
+          "name": "Shop",
+          "type": "managed",
+          "projectId": "enauC2JUZgx5ZyyeLXbdDM",
+          "renderModuleFilePath": "plasmic/fine_line_charters/PlasmicShop.jsx",
+          "importSpec": {
+            "modulePath": "../pages/category.jsx"
+          },
+          "cssFilePath": "plasmic/fine_line_charters/PlasmicShop.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "l91tlDf7qVFhpo",
+          "name": "CopyrightSocialLanguage",
+          "type": "managed",
+          "projectId": "enauC2JUZgx5ZyyeLXbdDM",
+          "renderModuleFilePath": "plasmic/fine_line_charters/PlasmicCopyrightSocialLanguage.jsx",
+          "importSpec": {
+            "modulePath": "CopyrightSocialLanguage.jsx"
+          },
+          "cssFilePath": "plasmic/fine_line_charters/PlasmicCopyrightSocialLanguage.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "fHSKL_T-uJlfUO",
+          "name": "EmojiValueProps",
+          "type": "managed",
+          "projectId": "enauC2JUZgx5ZyyeLXbdDM",
+          "renderModuleFilePath": "plasmic/fine_line_charters/PlasmicEmojiValueProps.jsx",
+          "importSpec": {
+            "modulePath": "EmojiValueProps.jsx"
+          },
+          "cssFilePath": "plasmic/fine_line_charters/PlasmicEmojiValueProps.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "rYxJUlxCQs2_8I",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "enauC2JUZgx5ZyyeLXbdDM",
+          "renderModuleFilePath": "plasmic/fine_line_charters/PlasmicTextInput.jsx",
+          "importSpec": {
+            "modulePath": "TextInput.jsx"
+          },
+          "cssFilePath": "plasmic/fine_line_charters/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "text-input"
+        },
+        {
+          "id": "xpNItL138qnk6M",
+          "name": "Rating",
+          "type": "managed",
+          "projectId": "enauC2JUZgx5ZyyeLXbdDM",
+          "renderModuleFilePath": "plasmic/fine_line_charters/PlasmicRating.jsx",
+          "importSpec": {
+            "modulePath": "Rating.jsx"
+          },
+          "cssFilePath": "plasmic/fine_line_charters/PlasmicRating.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "OWvt5HQc2rGxSE",
+          "name": "Select",
+          "type": "managed",
+          "projectId": "enauC2JUZgx5ZyyeLXbdDM",
+          "renderModuleFilePath": "plasmic/fine_line_charters/PlasmicSelect.jsx",
+          "importSpec": {
+            "modulePath": "Select.jsx"
+          },
+          "cssFilePath": "plasmic/fine_line_charters/PlasmicSelect.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "select"
+        },
+        {
+          "id": "o2kqYWuWYIGqbv",
+          "name": "Select__Option",
+          "type": "managed",
+          "projectId": "enauC2JUZgx5ZyyeLXbdDM",
+          "renderModuleFilePath": "plasmic/fine_line_charters/PlasmicSelect__Option.jsx",
+          "importSpec": {
+            "modulePath": "Select__Option.jsx"
+          },
+          "cssFilePath": "plasmic/fine_line_charters/PlasmicSelect__Option.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "select-option"
+        },
+        {
+          "id": "rYC1Rf1vRK3RsO",
+          "name": "Select__OptionGroup",
+          "type": "managed",
+          "projectId": "enauC2JUZgx5ZyyeLXbdDM",
+          "renderModuleFilePath": "plasmic/fine_line_charters/PlasmicSelect__OptionGroup.jsx",
+          "importSpec": {
+            "modulePath": "Select__OptionGroup.jsx"
+          },
+          "cssFilePath": "plasmic/fine_line_charters/PlasmicSelect__OptionGroup.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "select-option-group"
+        },
+        {
+          "id": "dtSYYPWUo8m3OK",
+          "name": "Select__Overlay",
+          "type": "managed",
+          "projectId": "enauC2JUZgx5ZyyeLXbdDM",
+          "renderModuleFilePath": "plasmic/fine_line_charters/PlasmicSelect__Overlay.jsx",
+          "importSpec": {
+            "modulePath": "Select__Overlay.jsx"
+          },
+          "cssFilePath": "plasmic/fine_line_charters/PlasmicSelect__Overlay.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "triggered-overlay"
+        },
+        {
+          "id": "gVUEUfniIrDhqE",
+          "name": "Collection",
+          "type": "managed",
+          "projectId": "enauC2JUZgx5ZyyeLXbdDM",
+          "renderModuleFilePath": "plasmic/fine_line_charters/PlasmicCollection.jsx",
+          "importSpec": {
+            "modulePath": "Collection.jsx"
+          },
+          "cssFilePath": "plasmic/fine_line_charters/PlasmicCollection.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ngYacomT_5P__7",
+          "name": "ProductMain",
+          "type": "managed",
+          "projectId": "enauC2JUZgx5ZyyeLXbdDM",
+          "renderModuleFilePath": "plasmic/fine_line_charters/PlasmicProductMain.jsx",
+          "importSpec": {
+            "modulePath": "ProductMain.jsx"
+          },
+          "cssFilePath": "plasmic/fine_line_charters/PlasmicProductMain.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "3mn9yXM9haJqFt",
+          "name": "Instagram",
+          "type": "managed",
+          "projectId": "enauC2JUZgx5ZyyeLXbdDM",
+          "renderModuleFilePath": "plasmic/fine_line_charters/PlasmicInstagram.jsx",
+          "importSpec": {
+            "modulePath": "Instagram.jsx"
+          },
+          "cssFilePath": "plasmic/fine_line_charters/PlasmicInstagram.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "7tEzuuLezy2GoN",
+          "name": "AboutUs",
+          "type": "managed",
+          "projectId": "enauC2JUZgx5ZyyeLXbdDM",
+          "renderModuleFilePath": "plasmic/fine_line_charters/PlasmicAboutUs.jsx",
+          "importSpec": {
+            "modulePath": "../pages/aboutus.jsx"
+          },
+          "cssFilePath": "plasmic/fine_line_charters/PlasmicAboutUs.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "oidbDHS-cDyW9A",
+          "name": "PaheHeaderMenuTextDark",
+          "type": "managed",
+          "projectId": "enauC2JUZgx5ZyyeLXbdDM",
+          "renderModuleFilePath": "plasmic/fine_line_charters/PlasmicPaheHeaderMenuTextDark.jsx",
+          "importSpec": {
+            "modulePath": "PaheHeaderMenuTextDark.jsx"
+          },
+          "cssFilePath": "plasmic/fine_line_charters/PlasmicPaheHeaderMenuTextDark.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "5sSXh73L87u3W4",
+          "name": "ShopingSection",
+          "type": "managed",
+          "projectId": "enauC2JUZgx5ZyyeLXbdDM",
+          "renderModuleFilePath": "plasmic/fine_line_charters/PlasmicShopingSection.jsx",
+          "importSpec": {
+            "modulePath": "ShopingSection.jsx"
+          },
+          "cssFilePath": "plasmic/fine_line_charters/PlasmicShopingSection.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "KI9uCAtVw-wc-2",
+          "name": "MenuIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__Menu.jsx"
+        },
+        {
+          "id": "LLX4T6aTYGnKwI",
+          "name": "SearchIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__Search.jsx"
+        },
+        {
+          "id": "mI4J64Nrgfqiph",
+          "name": "ProfileIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__Profile.jsx"
+        },
+        {
+          "id": "WVrHYnUKxmSKXF",
+          "name": "CartIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__Cart.jsx"
+        },
+        {
+          "id": "cV6OVkXZsVBTXg",
+          "name": "RightArrowIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__RightArrow.jsx"
+        },
+        {
+          "id": "JWz7XDsBEMngMw",
+          "name": "EmptyStarIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__EmptyStar.jsx"
+        },
+        {
+          "id": "G6PjFLKfMhDDhd",
+          "name": "HalfStarIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__HalfStar.jsx"
+        },
+        {
+          "id": "vT_2hCCN7W4RC3",
+          "name": "FullStarIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__FullStar.jsx"
+        },
+        {
+          "id": "39LcbCaGVC-27p",
+          "name": "TakeOffIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__TakeOff.jsx"
+        },
+        {
+          "id": "BpPIcLchlBNoNh",
+          "name": "CashIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__Cash.jsx"
+        },
+        {
+          "id": "SE57J6p4xoT8zM",
+          "name": "SecureIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__Secure.jsx"
+        },
+        {
+          "id": "xhmf3RbuXi_3Pe",
+          "name": "PlaneIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__Plane.jsx"
+        },
+        {
+          "id": "2jE8pbYJ_MK0gK",
+          "name": "DocumentIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__Document.jsx"
+        },
+        {
+          "id": "PKPEMSwyBWT4Cw",
+          "name": "LockIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__Lock.jsx"
+        },
+        {
+          "id": "9xldbtxq7wqZWb",
+          "name": "Icon15Icon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__Icon15.jsx"
+        },
+        {
+          "id": "ym2OJ0bu7vW9RD",
+          "name": "MedalIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__Medal.jsx"
+        },
+        {
+          "id": "lXMvNBIFYumGue",
+          "name": "PeaceIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__Peace.jsx"
+        },
+        {
+          "id": "D1pPqxaZk5znFX",
+          "name": "ShoeIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__Shoe.jsx"
+        },
+        {
+          "id": "5VktMWLsE9UajT",
+          "name": "LeafIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__Leaf.jsx"
+        },
+        {
+          "id": "mSxzG_wlrG9eMO",
+          "name": "QuestionIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__Question.jsx"
+        },
+        {
+          "id": "_DTaOVhecnoflB",
+          "name": "EnterIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__Enter.jsx"
+        },
+        {
+          "id": "3YUfV2jsteqS85",
+          "name": "DeliveryIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__Delivery.jsx"
+        },
+        {
+          "id": "d9HM20FOB-Liht",
+          "name": "SpeakerphoneIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__Speakerphone.jsx"
+        },
+        {
+          "id": "F4VKZnxoQQC7d6",
+          "name": "HomeIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__Home.jsx"
+        },
+        {
+          "id": "3LE4wq8LdNNQL7",
+          "name": "ChevronDownIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__ChevronDown.jsx"
+        },
+        {
+          "id": "YENE9ftm8coxJW",
+          "name": "LikeIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__Like.jsx"
+        },
+        {
+          "id": "HmORkr4bYBqCMv",
+          "name": "TwitterIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__Twitter.jsx"
+        },
+        {
+          "id": "kjrbXEInqLIEst",
+          "name": "YoutubeIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__Youtube.jsx"
+        },
+        {
+          "id": "t2FlHdvmS-IDiT",
+          "name": "PintrestIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__Pintrest.jsx"
+        },
+        {
+          "id": "TIE0GKFqnrTKf1",
+          "name": "Secure2Icon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__Secure2.jsx"
+        },
+        {
+          "id": "5KirajlK2gMG8c",
+          "name": "RecycleIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__Recycle.jsx"
+        },
+        {
+          "id": "hRHtXxS0_s-RTh",
+          "name": "Leaf2Icon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__Leaf2.jsx"
+        },
+        {
+          "id": "xqsZ4g_xxbDOAJ",
+          "name": "FilledCircleIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__FilledCircle.jsx"
+        },
+        {
+          "id": "jB6t6zpXrd0olH",
+          "name": "EmptyCircleIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__EmptyCircle.jsx"
+        },
+        {
+          "id": "L1m84JsI-ws9Ow",
+          "name": "SearchsvgIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__Searchsvg.jsx"
+        },
+        {
+          "id": "-NZf9vOwppczTg",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__Checksvg.jsx"
+        },
+        {
+          "id": "AcD8iq4yEGG9G2",
+          "name": "ChevronDownsvgIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__ChevronDownsvg.jsx"
+        },
+        {
+          "id": "k7PXLmujUwM2b8",
+          "name": "ChevronUpsvgIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__ChevronUpsvg.jsx"
+        },
+        {
+          "id": "468UtzPW5P4ic_",
+          "name": "EmailIcon",
+          "moduleFilePath": "plasmic/fine_line_charters/icons/PlasmicIcon__Email.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "LTgrxh4X7Mzil5",
+          "name": "visa",
+          "filePath": "../public/plasmic/fine_line_charters/images/visa.svg"
+        },
+        {
+          "id": "HGIgw6rq-MCWrg",
+          "name": "american express",
+          "filePath": "../public/plasmic/fine_line_charters/images/americanExpress.svg"
+        },
+        {
+          "id": "lgKWFAveN7MfaL",
+          "name": "discover",
+          "filePath": "../public/plasmic/fine_line_charters/images/discover.svg"
+        },
+        {
+          "id": "g5xm4cY_9MnRMk",
+          "name": "mastercard",
+          "filePath": "../public/plasmic/fine_line_charters/images/mastercard.svg"
+        },
+        {
+          "id": "RJh618xMH-E9hf",
+          "name": "shoe 2",
+          "filePath": "../public/plasmic/fine_line_charters/images/shoe2.png"
+        },
+        {
+          "id": "GPRndo1g8JSHF_",
+          "name": "shoe 3",
+          "filePath": "../public/plasmic/fine_line_charters/images/shoe3.png"
+        },
+        {
+          "id": "ijyzvOrmot76Wu",
+          "name": "shoe 4",
+          "filePath": "../public/plasmic/fine_line_charters/images/shoe4.png"
+        },
+        {
+          "id": "c4pWXmYHdkedAw",
+          "name": "shoe 5",
+          "filePath": "../public/plasmic/fine_line_charters/images/shoe5.png"
+        },
+        {
+          "id": "zH0SyiD2PjzQUH",
+          "name": "shoe 6",
+          "filePath": "../public/plasmic/fine_line_charters/images/shoe6.png"
+        },
+        {
+          "id": "gonVQLI0pAmL0c",
+          "name": "shoe 7",
+          "filePath": "../public/plasmic/fine_line_charters/images/shoe7.png"
+        },
+        {
+          "id": "fBF0LZTave4wVG",
+          "name": "shoe 8",
+          "filePath": "../public/plasmic/fine_line_charters/images/shoe8.png"
+        },
+        {
+          "id": "P-zwEknFhxbMz8",
+          "name": "shoe 9",
+          "filePath": "../public/plasmic/fine_line_charters/images/shoe9.png"
+        },
+        {
+          "id": "q7Ycrq0Oa4CyGn",
+          "name": "shoe 10",
+          "filePath": "../public/plasmic/fine_line_charters/images/shoe10.png"
+        },
+        {
+          "id": "nDXAE5C4Se1Wa-",
+          "name": "shoe 11",
+          "filePath": "../public/plasmic/fine_line_charters/images/shoe11.png"
+        },
+        {
+          "id": "7U-J7hCwviRDWZ",
+          "name": "shoe 12",
+          "filePath": "../public/plasmic/fine_line_charters/images/shoe12.png"
+        },
+        {
+          "id": "futXJok-yisIWO",
+          "name": "shoe 13",
+          "filePath": "../public/plasmic/fine_line_charters/images/shoe13.png"
+        },
+        {
+          "id": "ENDVvTqU9LbbIT",
+          "name": "shoe 14",
+          "filePath": "../public/plasmic/fine_line_charters/images/shoe14.png"
+        },
+        {
+          "id": "5S3r6OnLX8KaAd",
+          "name": "shoe 15",
+          "filePath": "../public/plasmic/fine_line_charters/images/shoe15.png"
+        },
+        {
+          "id": "ZnooVtL_iri-Mk",
+          "name": "shoe 16",
+          "filePath": "../public/plasmic/fine_line_charters/images/shoe16.png"
+        },
+        {
+          "id": "XBNkkcIF0ruz92",
+          "name": "shoe 17",
+          "filePath": "../public/plasmic/fine_line_charters/images/shoe17.png"
+        },
+        {
+          "id": "xsWMpyG4Sm6O9_",
+          "name": "shoe 18",
+          "filePath": "../public/plasmic/fine_line_charters/images/shoe18.png"
+        },
+        {
+          "id": "Z0ezEzsr1oW8NS",
+          "name": "shoe 19",
+          "filePath": "../public/plasmic/fine_line_charters/images/shoe19.png"
+        },
+        {
+          "id": "X8ttTuN3FqWpE0",
+          "name": "shoe 20",
+          "filePath": "../public/plasmic/fine_line_charters/images/shoe20.png"
+        },
+        {
+          "id": "F42jiocIPP4-Vp",
+          "name": "shoe 21",
+          "filePath": "../public/plasmic/fine_line_charters/images/shoe21.png"
+        },
+        {
+          "id": "M15vNOqhJMN91o",
+          "name": "shoe 22",
+          "filePath": "../public/plasmic/fine_line_charters/images/shoe22.png"
+        },
+        {
+          "id": "kmbzC4Td0-WQN8",
+          "name": "shoe 23",
+          "filePath": "../public/plasmic/fine_line_charters/images/shoe23.png"
+        },
+        {
+          "id": "Vv5dgdP4QFWiW2",
+          "name": "shoe 24",
+          "filePath": "../public/plasmic/fine_line_charters/images/shoe24.png"
+        },
+        {
+          "id": "ck_3YSdE6lL-Ds",
+          "name": "shoe 25",
+          "filePath": "../public/plasmic/fine_line_charters/images/shoe25.png"
+        },
+        {
+          "id": "d--5wjEqjBXeNX",
+          "name": "shoe 26",
+          "filePath": "../public/plasmic/fine_line_charters/images/shoe26.png"
+        },
+        {
+          "id": "2gyAWmUl9dijzt",
+          "name": "shoe 27",
+          "filePath": "../public/plasmic/fine_line_charters/images/shoe27.png"
+        },
+        {
+          "id": "mxugGoH4lMiGtt",
+          "name": "shoe 28",
+          "filePath": "../public/plasmic/fine_line_charters/images/shoe28.png"
+        },
+        {
+          "id": "Bt1rjXslUF_cWf",
+          "name": "hero",
+          "filePath": "../public/plasmic/fine_line_charters/images/hero.png"
+        },
+        {
+          "id": "Z3duNEnd-uWdZf",
+          "name": "usen-parmanov-C9FWHMbrwrg-unsplash.jpg",
+          "filePath": "../public/plasmic/fine_line_charters/images/usenParmanovC9FwhMbrwrgUnsplashjpg.jpeg"
+        },
+        {
+          "id": "JyYD1L_bOLakDX",
+          "name": "chris-ghinda-n4L__DFy43s-unsplash.jpg",
+          "filePath": "../public/plasmic/fine_line_charters/images/chrisGhindaN4LDFy43SUnsplashjpg.jpeg"
+        },
+        {
+          "id": "xCNCTm3mK4plMR",
+          "name": "clem-onojeghuo-8JYGodITMU8-unsplash.jpg",
+          "filePath": "../public/plasmic/fine_line_charters/images/clemOnojeghuo8JyGodItmu8Unsplashjpg.jpeg"
+        },
+        {
+          "id": "Xd_18_f4DXSAxW",
+          "name": "atikh-bana-_KaMTEmJnxY-unsplash.jpg",
+          "filePath": "../public/plasmic/fine_line_charters/images/atikhBanaKaMtEmJnxYUnsplashjpg.jpeg"
+        },
+        {
+          "id": "P6zDoi1jxuQZBh",
+          "name": "usen-parmanov-C9FWHMbrwrg-unsplash (1).jpg",
+          "filePath": "../public/plasmic/fine_line_charters/images/usenParmanovC9FwhMbrwrgUnsplash1Jpg.jpeg"
+        },
+        {
+          "id": "4gxXpjhy-Rr95V",
+          "name": "josue-rosales-kCpkS7HlAsQ-unsplash.jpg",
+          "filePath": "../public/plasmic/fine_line_charters/images/josueRosalesKCpkS7HlAsQUnsplashjpg.jpeg"
+        },
+        {
+          "id": "cJ9D5_68g13SAL",
+          "name": "jamar-crable-Ntg40QXcfGk-unsplash.jpg",
+          "filePath": "../public/plasmic/fine_line_charters/images/jamarCrableNtg40QXcfGkUnsplashjpg.jpeg"
+        },
+        {
+          "id": "5zbrgQznOiX7Zv",
+          "name": "jeremy-bishop-cGU3-joersk-unsplash.jpg",
+          "filePath": "../public/plasmic/fine_line_charters/images/jeremyBishopCGu3JoerskUnsplashjpg.jpeg"
+        },
+        {
+          "id": "zjf3wV6oBqE28s",
+          "name": "maksym-tymchyk-j_opiXH_QwM-unsplash.jpg",
+          "filePath": "../public/plasmic/fine_line_charters/images/maksymTymchykJOpiXhQwMUnsplashjpg.jpeg"
+        },
+        {
+          "id": "l0obD-M_0cHl9d",
+          "name": "helen-ngoc-n-i8mT6XhCIaw-unsplash.jpg",
+          "filePath": "../public/plasmic/fine_line_charters/images/helenNgocNI8MT6XhCIawUnsplashjpg.jpeg"
+        },
+        {
+          "id": "4YkPIEDB7qePcJ",
+          "name": "chalo-garcia-4gK1Vy2sdJ0-unsplash.jpg",
+          "filePath": "../public/plasmic/fine_line_charters/images/chaloGarcia4GK1Vy2SdJ0Unsplashjpg.jpeg"
+        },
+        {
+          "id": "QDu8EFHldc4ai6",
+          "name": "damian-barczak-sr3KVD6G0wU-unsplash.jpg",
+          "filePath": "../public/plasmic/fine_line_charters/images/damianBarczakSr3Kvd6G0WUUnsplashjpg.jpeg"
+        },
+        {
+          "id": "ak5u8oiu9nq0lr",
+          "name": "home-4.jpg",
+          "filePath": "../public/plasmic/fine_line_charters/images/home4Jpg.jpeg"
+        },
+        {
+          "id": "jRXBCBTrJtAuzr",
+          "name": "1.png",
+          "filePath": "../public/plasmic/fine_line_charters/images/_1Png.png"
+        },
+        {
+          "id": "WcPozlEtl63A8D",
+          "name": "2.png",
+          "filePath": "../public/plasmic/fine_line_charters/images/_2Png.png"
+        },
+        {
+          "id": "GeHL6c2Be9vKAi",
+          "name": "3.png",
+          "filePath": "../public/plasmic/fine_line_charters/images/_3Png.png"
+        },
+        {
+          "id": "9srGK-lvhpUOUL",
+          "name": "cdae2365eff5a961dd838b0505a1142b656efdf95f08c2785b59a_lips.jpg",
+          "filePath": "../public/plasmic/fine_line_charters/images/cdae2365Eff5A961Dd838B0505A1142B656Efdf95F08C2785B59ALipsjpg.jpeg"
+        },
+        {
+          "id": "IzR-EIItL5_vwO",
+          "name": "c3cf1b72aaa232ba2ab495bd7485efe29cee138b5f08c2f945173_gel.jpg",
+          "filePath": "../public/plasmic/fine_line_charters/images/c3Cf1B72Aaa232Ba2Ab495Bd7485Efe29Cee138B5F08C2F945173Geljpg.jpeg"
+        },
+        {
+          "id": "jZtV1NC97xJZfZ",
+          "name": "bf9cf6844f6febb697cbba7dcbbc048abc6c1cea5f08c2e616a7c_cream.jpg",
+          "filePath": "../public/plasmic/fine_line_charters/images/bf9Cf6844F6Febb697Cbba7Dcbbc048Abc6C1Cea5F08C2E616A7CCreamjpg.jpeg"
+        },
+        {
+          "id": "TEgKw6O2LVA-3E",
+          "name": "b115a9b1e7206e735653a4a9a38f429ccca4186c5f08c293d7a5b_hair-beauty.jpg",
+          "filePath": "../public/plasmic/fine_line_charters/images/b115A9B1E7206E735653A4A9A38F429Ccca4186C5F08C293D7A5BHairBeautyjpg.jpeg"
+        },
+        {
+          "id": "8dNanp-be8gSX4",
+          "name": "explore-banner (1).png",
+          "filePath": "../public/plasmic/fine_line_charters/images/exploreBanner1Png.png"
+        },
+        {
+          "id": "tQ-Hn7_AKc-krY",
+          "name": "1 (1).png",
+          "filePath": "../public/plasmic/fine_line_charters/images/_11Png.png"
+        },
+        {
+          "id": "rAsfsapuPOmvB1",
+          "name": "2.jpg",
+          "filePath": "../public/plasmic/fine_line_charters/images/_2Jpg.jpeg"
+        },
+        {
+          "id": "3AMCPrtRCRDiR1",
+          "name": "3.jpg",
+          "filePath": "../public/plasmic/fine_line_charters/images/_3Jpg.jpeg"
+        },
+        {
+          "id": "G6OGhurFp0rWsG",
+          "name": "4.jpg",
+          "filePath": "../public/plasmic/fine_line_charters/images/_4Jpg.jpeg"
+        },
+        {
+          "id": "ibdgC9X8x87kT9",
+          "name": "5.jpg",
+          "filePath": "../public/plasmic/fine_line_charters/images/_5Jpg.jpeg"
+        },
+        {
+          "id": "pfgyYI95CK80Bx",
+          "name": "cjs-illustration.svg",
+          "filePath": "../public/plasmic/fine_line_charters/images/cjsIllustrationsvg.svg"
+        },
+        {
+          "id": "pXNtF7dpHZYDFa",
+          "name": "netlify-illustration.svg",
+          "filePath": "../public/plasmic/fine_line_charters/images/netlifyIllustrationsvg.svg"
+        },
+        {
+          "id": "-M8HXIH1jS1MoJ",
+          "name": "github-illustration.svg",
+          "filePath": "../public/plasmic/fine_line_charters/images/githubIllustrationsvg.svg"
+        },
+        {
+          "id": "Ri5llx5jhfjA5P",
+          "name": "blog-illustration (1).svg",
+          "filePath": "../public/plasmic/fine_line_charters/images/blogIllustration1Svg.svg"
+        },
+        {
+          "id": "agjRaA86n61Mpd",
+          "name": "XQfbKI4c9gwrsr6g_hair-set-2.jpg",
+          "filePath": "../public/plasmic/fine_line_charters/images/xQfbKi4C9Gwrsr6GHairSet2Jpg.jpeg"
+        },
+        {
+          "id": "fkca5Qt276BPvN",
+          "name": "HHlFJIwkwvEOemWY_hair-set-3.jpg",
+          "filePath": "../public/plasmic/fine_line_charters/images/hHlFjIwkwvEOemWyHairSet3Jpg.jpeg"
+        },
+        {
+          "id": "yGWjQ1W9blpR3w",
+          "name": "e62bac70e3f29684c06bc36574c48d6afc5629ae5f08c2afc54bf_hair-set.jpg",
+          "filePath": "../public/plasmic/fine_line_charters/images/e62Bac70E3F29684C06Bc36574C48D6Afc5629Ae5F08C2Afc54BfHairSetjpg.jpeg"
+        },
+        {
+          "id": "dHi8j4NjE",
+          "name": "bent-rod.jpeg",
+          "filePath": "../public/plasmic/fine_line_charters/images/bentRodjpeg.jpeg"
+        },
+        {
+          "id": "oBTy0nYcc",
+          "name": "champlain-landscape-MG.jpeg",
+          "filePath": "../public/plasmic/fine_line_charters/images/champlainLandscapeMGjpeg.jpeg"
+        },
+        {
+          "id": "pkTp_cbwt",
+          "name": "ice-fishing-lakers.jpeg",
+          "filePath": "../public/plasmic/fine_line_charters/images/iceFishingLakersjpeg.jpeg"
+        },
+        {
+          "id": "2VyMzxfb_",
+          "name": "guys-laker.jpeg",
+          "filePath": "../public/plasmic/fine_line_charters/images/guysLakerjpeg.jpeg"
+        },
+        {
+          "id": "Zry4BNSVV",
+          "name": "guy-laker.jpeg",
+          "filePath": "../public/plasmic/fine_line_charters/images/guyLakerjpeg.jpeg"
+        },
+        {
+          "id": "fI08VZ-DY",
+          "name": "girl-laker.jpeg",
+          "filePath": "../public/plasmic/fine_line_charters/images/girlLakerjpeg.jpeg"
+        },
+        {
+          "id": "B81-DDtgj",
+          "name": "girl-laker-2.jpeg",
+          "filePath": "../public/plasmic/fine_line_charters/images/girlLaker2Jpeg.jpeg"
+        },
+        {
+          "id": "3GwiRmv3z",
+          "name": "ice-fishing-lakers-2.jpeg",
+          "filePath": "../public/plasmic/fine_line_charters/images/iceFishingLakers2Jpeg.jpeg"
+        },
+        {
+          "id": "8359E0Tl-",
+          "name": "night-bow-fishing-2.jpeg",
+          "filePath": "../public/plasmic/fine_line_charters/images/nightBowFishing2Jpeg.jpeg"
+        },
+        {
+          "id": "pPbLZpIBA",
+          "name": "night-bow-fishing-3.jpeg",
+          "filePath": "../public/plasmic/fine_line_charters/images/nightBowFishing3Jpeg.jpeg"
+        },
+        {
+          "id": "MBNOLk600",
+          "name": "night-bow-fishing.jpeg",
+          "filePath": "../public/plasmic/fine_line_charters/images/nightBowFishingjpeg.jpeg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "plasmic/fine_line_charters/PlasmicGlobalContextsProvider.jsx",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "LLKAOh_Q1bc8eW",
+        "name": "Screen",
+        "projectId": "enauC2JUZgx5ZyyeLXbdDM",
+        "contextFilePath": "plasmic/fine_line_charters/PlasmicGlobalVariant__Screen.jsx"
+      },
+      {
+        "id": "Bhrb4fDzkR-Jm1",
+        "name": "UnnamedGlobalGroupOfVariants",
+        "projectId": "enauC2JUZgx5ZyyeLXbdDM",
+        "contextFilePath": "plasmic/fine_line_charters/PlasmicGlobalVariant__UnnamedGlobalGroupOfVariants.jsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.178",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.178/dist/plasmic.schema.json"
+}

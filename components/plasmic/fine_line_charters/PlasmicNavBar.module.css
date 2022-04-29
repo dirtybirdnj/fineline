@@ -1,0 +1,167 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  min-width: 0;
+}
+.freeBox__cJ6Wz {
+  flex-direction: row;
+  max-width: 1380px;
+  display: flex;
+  width: 100%;
+  position: relative;
+  background: none;
+  min-width: 0;
+  padding: 0px 32px;
+}
+.freeBox__cJ6Wz > :global(.__wab_flex-container) {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  min-width: 0;
+  margin-left: calc(0px - 0px);
+  width: calc(100% + 0px);
+}
+.freeBox__cJ6Wz > :global(.__wab_flex-container) > *,
+.freeBox__cJ6Wz > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__cJ6Wz > :global(.__wab_flex-container) > picture > img,
+.freeBox__cJ6Wz
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 0px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__cJ6Wz {
+    padding: 12px 0px 13px;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__cJ6Wz > :global(.__wab_flex-container) {
+    align-content: center;
+    justify-content: center;
+    margin-left: calc(0px - 30px);
+    width: calc(100% + 30px);
+    margin-top: calc(0px - 0px);
+    height: calc(100% + 0px);
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__cJ6Wz > :global(.__wab_flex-container) > *,
+  .freeBox__cJ6Wz > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .freeBox__cJ6Wz > :global(.__wab_flex-container) > picture > img,
+  .freeBox__cJ6Wz
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
+    margin-left: 30px;
+    margin-top: 0px;
+  }
+}
+.freeBox__sHHb {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  padding: 8px;
+}
+.freeBox__sHHb > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 43px);
+  width: calc(100% + 43px);
+}
+.freeBox__sHHb > :global(.__wab_flex-container) > *,
+.freeBox__sHHb > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__sHHb > :global(.__wab_flex-container) > picture > img,
+.freeBox__sHHb
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 43px;
+}
+.link__o9BTz {
+  color: var(--token-OGQvnduWZ7RFWz);
+  text-transform: capitalize;
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+}
+.link__zKhv2 {
+  color: var(--token-OGQvnduWZ7RFWz);
+  text-transform: capitalize;
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+}
+.link__dUdIk {
+  color: var(--token-OGQvnduWZ7RFWz);
+  text-transform: capitalize;
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+}
+.freeBox___698If {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  padding: 8px;
+}
+.fineLineFishingCharters {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--token-OGQvnduWZ7RFWz);
+  text-transform: capitalize;
+}
+.freeBox__wcNr {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+}
+.freeBox__wcNr > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 43px);
+  width: calc(100% + 43px);
+}
+.freeBox__wcNr > :global(.__wab_flex-container) > *,
+.freeBox__wcNr > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__wcNr > :global(.__wab_flex-container) > picture > img,
+.freeBox__wcNr
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 43px;
+}
+.link__dM0B {
+  color: var(--token-OGQvnduWZ7RFWz);
+  text-transform: capitalize;
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+}
