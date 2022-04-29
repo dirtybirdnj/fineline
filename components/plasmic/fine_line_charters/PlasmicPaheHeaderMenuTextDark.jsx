@@ -22,7 +22,6 @@ import { useScreenVariants as useScreenVariantsllkaOhQ1Bc8EW } from "./PlasmicGl
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_fine_line_charters.module.css"; // plasmic-import: enauC2JUZgx5ZyyeLXbdDM/projectcss
 import sty from "./PlasmicPaheHeaderMenuTextDark.module.css"; // plasmic-import: oidbDHS-cDyW9A/css
-import CartIcon from "./icons/PlasmicIcon__Cart"; // plasmic-import: WVrHYnUKxmSKXF/icon
 
 export const PlasmicPaheHeaderMenuTextDark__VariantProps = new Array();
 
@@ -71,7 +70,7 @@ function PlasmicPaheHeaderMenuTextDark__RenderFunc(props) {
             href={"/category"}
             platform={"nextjs"}
           >
-            {"Shop"}
+            {"Services"}
           </p.PlasmicLink>
 
           <p.PlasmicLink
@@ -105,7 +104,7 @@ function PlasmicPaheHeaderMenuTextDark__RenderFunc(props) {
           >
             {hasVariant(globalVariants, "screen", "mobileOnly")
               ? "Commerce"
-              : "Commerce"}
+              : "Fine Line Fishing Charters"}
           </p.PlasmicLink>
         </div>
 
@@ -125,15 +124,22 @@ function PlasmicPaheHeaderMenuTextDark__RenderFunc(props) {
             href={"/aboutus"}
             platform={"nextjs"}
           >
-            {"Login"}
+            {"Contact"}
           </p.PlasmicLink>
 
-          <CartIcon
-            data-plasmic-name={"svg"}
-            data-plasmic-override={overrides.svg}
-            className={classNames(projectcss.all, sty.svg)}
-            role={"img"}
-          />
+          <p.PlasmicLink
+            className={classNames(
+              projectcss.all,
+              projectcss.a,
+              projectcss.__wab_text,
+              sty.link___1Tywp
+            )}
+            component={Link}
+            href={"/aboutus"}
+            platform={"nextjs"}
+          >
+            {"Make a Reservation"}
+          </p.PlasmicLink>
         </p.Stack>
       </p.Stack>
     </div>
@@ -141,8 +147,7 @@ function PlasmicPaheHeaderMenuTextDark__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "svg"],
-  svg: ["svg"]
+  root: ["root"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -174,7 +179,6 @@ export const PlasmicPaheHeaderMenuTextDark = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    svg: makeNodeComponent("svg"),
     // Metadata about props expected for PlasmicPaheHeaderMenuTextDark
     internalVariantProps: PlasmicPaheHeaderMenuTextDark__VariantProps,
     internalArgProps: PlasmicPaheHeaderMenuTextDark__ArgProps

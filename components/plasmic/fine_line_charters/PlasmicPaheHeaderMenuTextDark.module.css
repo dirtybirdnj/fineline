@@ -259,11 +259,11 @@
   height: auto;
   max-width: 800px;
 }
-.svg {
-  position: relative;
-  object-fit: cover;
-  width: 24px;
-  height: 24px;
+.link___1Tywp {
   color: var(--token-7u4HHSLEuUSG7s);
-  flex-shrink: 0;
+  text-transform: capitalize;
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
 }

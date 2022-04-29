@@ -18,9 +18,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import NavBar from "../../NavBar"; // plasmic-import: IVyjr7QDv09hRO/component
-import { CategoryCollection } from "@plasmicpkgs/commerce"; // plasmic-import: ny07p45F84c_/codeComponent
-import Collection from "../../Collection"; // plasmic-import: gVUEUfniIrDhqE/component
-import { CategoryMedia } from "@plasmicpkgs/commerce"; // plasmic-import: yOXBNIAJxzUq/codeComponent
 import ShopingSection from "../../ShopingSection"; // plasmic-import: 5sSXh73L87u3W4/component
 import Instagram from "../../Instagram"; // plasmic-import: 3mn9yXM9haJqFt/component
 import Footer from "../../Footer"; // plasmic-import: eKObOqjQGvOV6B/component
@@ -244,196 +241,124 @@ function PlasmicHomepage__RenderFunc(props) {
               </h2>
             </p.Stack>
 
-            <p.Stack
-              as={"div"}
-              hasGap={true}
-              className={classNames(projectcss.all, sty.freeBox__b0TO0)}
-            >
-              <p.Stack
-                as={"div"}
+            <div className={classNames(projectcss.all, sty.freeBox__dsu7Y)}>
+              <div
                 data-plasmic-name={"columns"}
                 data-plasmic-override={overrides.columns}
-                hasGap={true}
                 className={classNames(projectcss.all, sty.columns)}
               >
-                <div className={classNames(projectcss.all, sty.column__wdPxq)}>
-                  <CategoryCollection
-                    category={"6267de7030e3370018d347ab"}
-                    className={classNames(
-                      "__wab_instance",
-                      sty.categoryCollection__eP5B4
-                    )}
-                    emptyMessage={
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__bJiWy
-                        )}
-                      >
-                        {"No collection found!"}
-                      </div>
-                    }
-                    loadingMessage={
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__lBVvX
-                        )}
-                      >
-                        {"Loading..."}
-                      </div>
-                    }
+                <div className={classNames(projectcss.all, sty.column__obwkc)}>
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox__yOE)}
                   >
-                    <Collection
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__suyPe)}
+                      displayHeight={"auto"}
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"100%"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"auto"}
+                      loading={"lazy"}
+                      src={{
+                        src: "/plasmic/fine_line_charters/images/nightBowFishing3Jpeg.jpeg",
+                        fullWidth: 1536,
+                        fullHeight: 2048,
+                        aspectRatio: undefined
+                      }}
+                    />
+
+                    <h3
                       className={classNames(
-                        "__wab_instance",
-                        sty.collection__p4TbL
+                        projectcss.all,
+                        projectcss.h3,
+                        projectcss.__wab_text,
+                        sty.h3__zBqh3
                       )}
-                      slot={
-                        <h3
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.h3,
-                            projectcss.__wab_text,
-                            sty.h3__yjPpt
-                          )}
-                        >
-                          {"NIGHT BOW HUNTING"}
-                        </h3>
-                      }
                     >
-                      <CategoryMedia
-                        className={classNames(
-                          "__wab_instance",
-                          sty.categoryMedia__aHmMh
-                        )}
-                        mediaSize={"cover"}
-                      />
-                    </Collection>
-                  </CategoryCollection>
+                      {"NIGHT BOW HUNTING"}
+                    </h3>
+                  </p.Stack>
                 </div>
 
-                <div className={classNames(projectcss.all, sty.column__qwuNt)}>
-                  <CategoryCollection
-                    category={"6267e0ec4443d3001919b87b"}
-                    className={classNames(
-                      "__wab_instance",
-                      sty.categoryCollection__hhjJm
-                    )}
-                    emptyMessage={
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text___62RoD
-                        )}
-                      >
-                        {"No collection found!"}
-                      </div>
-                    }
-                    loadingMessage={
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__ccjj1
-                        )}
-                      >
-                        {"Loading..."}
-                      </div>
-                    }
+                <div className={classNames(projectcss.all, sty.column__uy65)}>
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox__fb4Bn)}
                   >
-                    <Collection
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__fql4D)}
+                      displayHeight={"auto"}
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"100%"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"auto"}
+                      loading={"lazy"}
+                      src={{
+                        src: "/plasmic/fine_line_charters/images/girlLaker2Jpeg.jpeg",
+                        fullWidth: 538,
+                        fullHeight: 960,
+                        aspectRatio: undefined
+                      }}
+                    />
+
+                    <h3
                       className={classNames(
-                        "__wab_instance",
-                        sty.collection___8E8Ys
+                        projectcss.all,
+                        projectcss.h3,
+                        projectcss.__wab_text,
+                        sty.h3__nnD32
                       )}
-                      slot={
-                        <h3
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.h3,
-                            projectcss.__wab_text,
-                            sty.h3__afkd
-                          )}
-                        >
-                          {"BOAT CASTING"}
-                        </h3>
-                      }
                     >
-                      <CategoryMedia
-                        className={classNames(
-                          "__wab_instance",
-                          sty.categoryMedia__dO1EH
-                        )}
-                        mediaSize={"cover"}
-                      />
-                    </Collection>
-                  </CategoryCollection>
+                      {"BOAT CASTING"}
+                    </h3>
+                  </p.Stack>
                 </div>
 
-                <div className={classNames(projectcss.all, sty.column__sgZjM)}>
-                  <CategoryCollection
-                    category={"6267e10630e3370018d76b94"}
-                    className={classNames(
-                      "__wab_instance",
-                      sty.categoryCollection__o3Dnm
-                    )}
-                    emptyMessage={
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__xmIye
-                        )}
-                      >
-                        {"No collection found!"}
-                      </div>
-                    }
-                    loadingMessage={
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__fx18
-                        )}
-                      >
-                        {"Loading..."}
-                      </div>
-                    }
+                <div className={classNames(projectcss.all, sty.column__cg5EW)}>
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox__roYnc)}
                   >
-                    <Collection
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__so4Fs)}
+                      displayHeight={"auto"}
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"100%"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"auto"}
+                      loading={"lazy"}
+                      src={{
+                        src: "/plasmic/fine_line_charters/images/guysLakerjpeg.jpeg",
+                        fullWidth: 1125,
+                        fullHeight: 844,
+                        aspectRatio: undefined
+                      }}
+                    />
+
+                    <h3
                       className={classNames(
-                        "__wab_instance",
-                        sty.collection__t701U
+                        projectcss.all,
+                        projectcss.h3,
+                        projectcss.__wab_text,
+                        sty.h3___6SuTw
                       )}
-                      slot={
-                        <h3
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.h3,
-                            projectcss.__wab_text,
-                            sty.h3__r06Vj
-                          )}
-                        >
-                          {"TROLLING"}
-                        </h3>
-                      }
                     >
-                      <CategoryMedia
-                        className={classNames(
-                          "__wab_instance",
-                          sty.categoryMedia__cus8R
-                        )}
-                        mediaSize={"cover"}
-                      />
-                    </Collection>
-                  </CategoryCollection>
+                      {"TROLLING"}
+                    </h3>
+                  </p.Stack>
                 </div>
-              </p.Stack>
-            </p.Stack>
+              </div>
+            </div>
           </p.Stack>
 
           <ShopingSection

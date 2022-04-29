@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -38,7 +38,8 @@
           "name": "CommerceProviderComponent",
           "componentImportPath": "@plasmicpkgs/commerce-swell"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "xp1p7dmg329XVLHyuEUxD2",
@@ -127,7 +128,8 @@
           "name": "CategoryMedia",
           "componentImportPath": "@plasmicpkgs/commerce"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "enauC2JUZgx5ZyyeLXbdDM",
