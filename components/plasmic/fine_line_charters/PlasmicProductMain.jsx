@@ -54,7 +54,6 @@ function PlasmicProductMain__RenderFunc(props) {
         data-plasmic-name={"productMedia"}
         data-plasmic-override={overrides.productMedia}
         className={classNames("__wab_instance", sty.productMedia)}
-        mediaSize={"cover"}
       />
 
       <p.Stack

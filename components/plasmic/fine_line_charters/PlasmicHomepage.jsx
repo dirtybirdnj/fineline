@@ -181,7 +181,7 @@ function PlasmicHomepage__RenderFunc(props) {
                 )}
               >
                 {
-                  "TEN YEARS OF EXPERIENCE BOWHUNTING, FISHING, AND GUIDING ON LAKE CHAMPLAIN AND THE LAKES OF VERMONT"
+                  "TEN YEARS OF EXPERIENCE FISHING, AND GUIDING ON LAKE CHAMPLAIN AND THE INLAND WATERS OF VERMONT"
                 }
               </h3>
 
@@ -193,7 +193,7 @@ function PlasmicHomepage__RenderFunc(props) {
                   hasGap={true}
                   className={classNames(projectcss.all, projectcss.a, sty.link)}
                   component={Link}
-                  href={"/aboutus"}
+                  href={"/about"}
                   platform={"nextjs"}
                 >
                   <div
@@ -279,7 +279,7 @@ function PlasmicHomepage__RenderFunc(props) {
                         sty.h3__zBqh3
                       )}
                     >
-                      {"NIGHT BOW HUNTING"}
+                      {"NIGHT BOW FISHING"}
                     </h3>
                   </p.Stack>
                 </div>

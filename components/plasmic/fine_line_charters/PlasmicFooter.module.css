@@ -152,37 +152,18 @@
 }
 .link__pWvUm {
   position: relative;
+  width: auto;
 }
 .link__xc0Ii {
   position: relative;
 }
-.freeBox___5HqRs {
-  flex-direction: column;
-  display: flex;
-  width: auto;
-}
-.freeBox___5HqRs > :global(.__wab_flex-container) {
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin-top: calc(0px - 10px);
-  height: calc(100% + 10px);
-}
-.freeBox___5HqRs > :global(.__wab_flex-container) > *,
-.freeBox___5HqRs > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-.freeBox___5HqRs > :global(.__wab_flex-container) > picture > img,
-.freeBox___5HqRs
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > picture
-  > img {
-  margin-top: 10px;
-}
-.link__rz9Ss {
+.link__qVkd {
   position: relative;
+  margin-bottom: 0px;
 }
-.link___5Nfsa {
+.link__tXxYk {
   position: relative;
+  margin-bottom: 0px;
 }
 .freeBox__hIwAp {
   flex-direction: column;
@@ -213,16 +194,17 @@
   height: auto;
   font-family: "Playfair Display", serif;
   font-size: 24px;
+  display: none;
   padding: 0px;
 }
 .freeBox___6QFzy {
   flex-direction: row;
-  display: flex;
   position: relative;
   width: 100%;
   height: auto;
   max-width: 100%;
   min-width: 0;
+  display: none;
   padding: 0px;
 }
 .freeBox___6QFzy > :global(.__wab_flex-container) {
@@ -342,24 +324,39 @@
   min-width: 0;
   padding: 8px;
 }
-.svg__mD9P {
-  position: relative;
-  object-fit: cover;
-  width: 24px;
-  height: 24px;
+.freeBox___5HqRs {
+  flex-direction: column;
+  display: flex;
+  width: auto;
 }
-.svg___4Ul3M {
-  position: absolute;
-  object-fit: cover;
-  max-width: 100%;
-  left: 380px;
-  top: 0px;
-  color: var(--token-7u4HHSLEuUSG7s);
-  cursor: pointer;
-  width: 30px;
-  height: 100%;
-  flex-shrink: 0;
-  min-height: 0;
+.freeBox___5HqRs > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.freeBox___5HqRs > :global(.__wab_flex-container) > *,
+.freeBox___5HqRs > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox___5HqRs > :global(.__wab_flex-container) > picture > img,
+.freeBox___5HqRs
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 10px;
+}
+.makeAReservation {
+  position: relative;
+}
+.link___5Nfsa {
+  position: relative;
+}
+.link__vDnrg {
+  position: relative;
+}
+.link___5JOHs {
+  position: relative;
 }
 .copyrightSocialLanguage:global(.__wab_instance) {
   position: relative;

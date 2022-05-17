@@ -127,9 +127,13 @@
           "id": "yOXBNIAJxzUq",
           "name": "CategoryMedia",
           "componentImportPath": "@plasmicpkgs/commerce"
+        },
+        {
+          "id": "a5BakxYc5Db_",
+          "name": "ProductMediaCollection",
+          "componentImportPath": "@plasmicpkgs/commerce"
         }
-      ],
-      "jsBundleThemes": []
+      ]
     },
     {
       "projectId": "enauC2JUZgx5ZyyeLXbdDM",
@@ -437,7 +441,7 @@
           "projectId": "enauC2JUZgx5ZyyeLXbdDM",
           "renderModuleFilePath": "plasmic/fine_line_charters/PlasmicAboutUs.jsx",
           "importSpec": {
-            "modulePath": "../pages/aboutus.jsx"
+            "modulePath": "../pages/about.jsx"
           },
           "cssFilePath": "plasmic/fine_line_charters/PlasmicAboutUs.module.css",
           "scheme": "blackbox",
@@ -468,6 +472,58 @@
           "cssFilePath": "plasmic/fine_line_charters/PlasmicShopingSection.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "0AtAO49JPf",
+          "name": "MakeReservation",
+          "type": "managed",
+          "projectId": "enauC2JUZgx5ZyyeLXbdDM",
+          "renderModuleFilePath": "plasmic/fine_line_charters/PlasmicMakeReservation.jsx",
+          "importSpec": {
+            "modulePath": "../pages/reservations.jsx"
+          },
+          "cssFilePath": "plasmic/fine_line_charters/PlasmicMakeReservation.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "AGUe_dHPXL",
+          "name": "Bowfishing",
+          "type": "managed",
+          "projectId": "enauC2JUZgx5ZyyeLXbdDM",
+          "renderModuleFilePath": "plasmic/fine_line_charters/PlasmicBowfishing.jsx",
+          "importSpec": {
+            "modulePath": "../pages/bowfishing.jsx"
+          },
+          "cssFilePath": "plasmic/fine_line_charters/PlasmicBowfishing.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "6TDCfiyapQ",
+          "name": "Trolling",
+          "type": "managed",
+          "projectId": "enauC2JUZgx5ZyyeLXbdDM",
+          "renderModuleFilePath": "plasmic/fine_line_charters/PlasmicTrolling.jsx",
+          "importSpec": {
+            "modulePath": "../pages/trolling.jsx"
+          },
+          "cssFilePath": "plasmic/fine_line_charters/PlasmicTrolling.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "UbZbKy-8d-",
+          "name": "Casting",
+          "type": "managed",
+          "projectId": "enauC2JUZgx5ZyyeLXbdDM",
+          "renderModuleFilePath": "plasmic/fine_line_charters/PlasmicCasting.jsx",
+          "importSpec": {
+            "modulePath": "../pages/casting.jsx"
+          },
+          "cssFilePath": "plasmic/fine_line_charters/PlasmicCasting.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [

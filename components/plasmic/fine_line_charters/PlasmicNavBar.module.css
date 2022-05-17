@@ -4,6 +4,7 @@
   align-items: center;
   width: 100%;
   position: relative;
+  background: none;
   min-width: 0;
 }
 .freeBox__cJ6Wz {
@@ -12,7 +13,6 @@
   display: flex;
   width: 100%;
   position: relative;
-  background: none;
   min-width: 0;
   padding: 0px 32px;
 }

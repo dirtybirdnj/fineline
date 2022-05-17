@@ -82,7 +82,7 @@ function PlasmicNavBar__RenderFunc(props) {
               sty.link__o9BTz
             )}
             component={Link}
-            href={"/category"}
+            href={"/bowfishing"}
             platform={"nextjs"}
           >
             {"Bowfishing"}
@@ -96,7 +96,7 @@ function PlasmicNavBar__RenderFunc(props) {
               sty.link__zKhv2
             )}
             component={Link}
-            href={"/aboutus"}
+            href={"/trolling"}
             platform={"nextjs"}
           >
             {"Trolling"}
@@ -110,7 +110,7 @@ function PlasmicNavBar__RenderFunc(props) {
               sty.link__dUdIk
             )}
             component={Link}
-            href={"/aboutus"}
+            href={"/casting"}
             platform={"nextjs"}
           >
             {"Casting"}
@@ -156,7 +156,7 @@ function PlasmicNavBar__RenderFunc(props) {
               sty.link__dM0B
             )}
             component={Link}
-            href={"/aboutus"}
+            href={"/reservations"}
             platform={"nextjs"}
           >
             {"Contact"}

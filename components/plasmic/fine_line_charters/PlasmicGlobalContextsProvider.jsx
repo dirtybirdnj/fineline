@@ -15,7 +15,7 @@ export default function GlobalContextsProvider(props) {
         commerceProviderComponentProps &&
         "publicKey" in commerceProviderComponentProps
           ? commerceProviderComponentProps.publicKey
-          : "pk_sv6phRbZg3YRryYB3MpSSBxwmOGuiM9f"
+          : "pk_sv6phRbZg3YRryYB3MpSSBxwmOGuiM9ff"
       }
       storeId={
         commerceProviderComponentProps &&

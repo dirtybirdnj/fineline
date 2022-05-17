@@ -95,7 +95,7 @@ function PlasmicInstagram__RenderFunc(props) {
                   sty.text
                 )}
               >
-                {"See more product"}
+                {"See more pictures"}
               </div>
 
               <RightArrowIcon

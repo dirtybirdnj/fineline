@@ -197,7 +197,7 @@ function PlasmicItem__RenderFunc(props) {
                                         className={classNames(
                                           projectcss.all,
                                           projectcss.__wab_text,
-                                          sty.text__nxGm
+                                          sty.text__gbWaH
                                         )}
                                       >
                                         {"No collection found!"}
@@ -208,7 +208,7 @@ function PlasmicItem__RenderFunc(props) {
                                         className={classNames(
                                           projectcss.all,
                                           projectcss.__wab_text,
-                                          sty.text__fwBad
+                                          sty.text__cSvuZ
                                         )}
                                       >
                                         {"Loading..."}
@@ -256,7 +256,6 @@ function PlasmicItem__RenderFunc(props) {
                           "__wab_instance",
                           sty.productMedia__hqzuy
                         )}
-                        mediaSize={"cover"}
                       />
 
                       <ProductMedia
@@ -265,7 +264,6 @@ function PlasmicItem__RenderFunc(props) {
                           sty.productMedia__zWtEm
                         )}
                         mediaIndex={1}
-                        mediaSize={"cover"}
                       />
 
                       <ProductMedia
@@ -274,7 +272,6 @@ function PlasmicItem__RenderFunc(props) {
                           sty.productMedia__xWKu
                         )}
                         mediaIndex={2}
-                        mediaSize={"cover"}
                       />
                     </p.Stack>
                   </div>
@@ -291,7 +288,6 @@ function PlasmicItem__RenderFunc(props) {
                         "__wab_instance",
                         sty.productMedia__lNkXp
                       )}
-                      mediaSize={"cover"}
                     />
 
                     <p.Stack
@@ -311,7 +307,6 @@ function PlasmicItem__RenderFunc(props) {
                             sty.productMedia__wOlut
                           )}
                           mediaIndex={1}
-                          mediaSize={"cover"}
                         />
                       </div>
 
@@ -327,7 +322,6 @@ function PlasmicItem__RenderFunc(props) {
                             sty.productMedia__tvsZl
                           )}
                           mediaIndex={2}
-                          mediaSize={"cover"}
                         />
                       </div>
                     </p.Stack>
@@ -1787,7 +1781,7 @@ function PlasmicItem__RenderFunc(props) {
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__uxJuH
+                        sty.text___1QlEz
                       )}
                     >
                       {"No product found!"}
@@ -1798,7 +1792,7 @@ function PlasmicItem__RenderFunc(props) {
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__mzEzq
+                        sty.text__yzzyo
                       )}
                     >
                       {"Loading..."}

@@ -18,15 +18,12 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import TextInput from "../../TextInput"; // plasmic-import: rYxJUlxCQs2_8I/component
 import CopyrightSocialLanguage from "../../CopyrightSocialLanguage"; // plasmic-import: l91tlDf7qVFhpo/component
 import { useScreenVariants as useScreenVariantsllkaOhQ1Bc8EW } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: LLKAOh_Q1bc8eW/globalVariant
 import { useUnnamedGlobalGroupOfVariants } from "./PlasmicGlobalVariant__UnnamedGlobalGroupOfVariants"; // plasmic-import: Bhrb4fDzkR-Jm1/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_fine_line_charters.module.css"; // plasmic-import: enauC2JUZgx5ZyyeLXbdDM/projectcss
 import sty from "./PlasmicFooter.module.css"; // plasmic-import: eKObOqjQGvOV6B/css
-import ChecksvgIcon from "./icons/PlasmicIcon__Checksvg"; // plasmic-import: -NZf9vOwppczTg/icon
-import RightArrowIcon from "./icons/PlasmicIcon__RightArrow"; // plasmic-import: cV6OVkXZsVBTXg/icon
 
 export const PlasmicFooter__VariantProps = new Array();
 
@@ -73,7 +70,7 @@ function PlasmicFooter__RenderFunc(props) {
               sty.h3__hPhOf
             )}
           >
-            {"Subscribe"}
+            {"Services"}
           </h3>
 
           {true ? (
@@ -98,7 +95,7 @@ function PlasmicFooter__RenderFunc(props) {
                   href={"https://www.plasmic.app/"}
                   platform={"nextjs"}
                 >
-                  {"FAQ"}
+                  {"Bowfishing"}
                 </p.PlasmicLink>
 
                 <p.PlasmicLink
@@ -112,27 +109,7 @@ function PlasmicFooter__RenderFunc(props) {
                   href={"https://www.plasmic.app/"}
                   platform={"nextjs"}
                 >
-                  {"Shipping"}
-                </p.PlasmicLink>
-              </p.Stack>
-
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.freeBox___5HqRs)}
-              >
-                <p.PlasmicLink
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.a,
-                    projectcss.__wab_text,
-                    sty.link__rz9Ss
-                  )}
-                  component={Link}
-                  href={"https://www.plasmic.app/"}
-                  platform={"nextjs"}
-                >
-                  {"Returns + Exchanges"}
+                  {"Trolling"}
                 </p.PlasmicLink>
 
                 <p.PlasmicLink
@@ -140,13 +117,27 @@ function PlasmicFooter__RenderFunc(props) {
                     projectcss.all,
                     projectcss.a,
                     projectcss.__wab_text,
-                    sty.link___5Nfsa
+                    sty.link__qVkd
                   )}
                   component={Link}
                   href={"https://www.plasmic.app/"}
                   platform={"nextjs"}
                 >
-                  {"Contact Us"}
+                  {"Casting"}
+                </p.PlasmicLink>
+
+                <p.PlasmicLink
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.a,
+                    projectcss.__wab_text,
+                    sty.link__tXxYk
+                  )}
+                  component={Link}
+                  href={"https://www.plasmic.app/"}
+                  platform={"nextjs"}
+                >
+                  {"Ice Fishing"}
                 </p.PlasmicLink>
               </p.Stack>
             </p.Stack>
@@ -158,17 +149,18 @@ function PlasmicFooter__RenderFunc(props) {
           hasGap={true}
           className={classNames(projectcss.all, sty.freeBox__hIwAp)}
         >
-          <h3
-            className={classNames(
-              projectcss.all,
-              projectcss.h3,
-              projectcss.__wab_text,
-              sty.h3__ws3Z
-            )}
-          >
-            {"SUPPORT"}
-          </h3>
-
+          {true ? (
+            <h3
+              className={classNames(
+                projectcss.all,
+                projectcss.h3,
+                projectcss.__wab_text,
+                sty.h3__ws3Z
+              )}
+            >
+              {"SUPPORT"}
+            </h3>
+          ) : null}
           {true ? (
             <p.Stack
               as={"div"}
@@ -259,27 +251,74 @@ function PlasmicFooter__RenderFunc(props) {
               sty.h3__ynuEx
             )}
           >
-            {"COMPANY"}
+            {"Contact"}
           </h3>
 
           {true ? (
             <div className={classNames(projectcss.all, sty.freeBox__ouujx)}>
-              <TextInput
-                data-plasmic-name={"textInput"}
-                data-plasmic-override={overrides.textInput}
-                endIcon={
-                  <ChecksvgIcon
-                    className={classNames(projectcss.all, sty.svg__mD9P)}
-                    role={"img"}
-                  />
-                }
-                placeholder={"Email address..."}
-              />
+              <p.Stack
+                as={"div"}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.freeBox___5HqRs)}
+              >
+                <p.PlasmicLink
+                  data-plasmic-name={"makeAReservation"}
+                  data-plasmic-override={overrides.makeAReservation}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.a,
+                    projectcss.__wab_text,
+                    sty.makeAReservation
+                  )}
+                  component={Link}
+                  href={"https://www.plasmic.app/"}
+                  platform={"nextjs"}
+                >
+                  {"Make a Reservation"}
+                </p.PlasmicLink>
 
-              <RightArrowIcon
-                className={classNames(projectcss.all, sty.svg___4Ul3M)}
-                role={"img"}
-              />
+                <p.PlasmicLink
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.a,
+                    projectcss.__wab_text,
+                    sty.link___5Nfsa
+                  )}
+                  component={Link}
+                  href={"https://www.plasmic.app/"}
+                  platform={"nextjs"}
+                >
+                  {"Contact Us"}
+                </p.PlasmicLink>
+
+                <p.PlasmicLink
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.a,
+                    projectcss.__wab_text,
+                    sty.link__vDnrg
+                  )}
+                  component={Link}
+                  href={"https://www.plasmic.app/"}
+                  platform={"nextjs"}
+                >
+                  {"Facebook"}
+                </p.PlasmicLink>
+
+                <p.PlasmicLink
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.a,
+                    projectcss.__wab_text,
+                    sty.link___5JOHs
+                  )}
+                  component={Link}
+                  href={"https://www.plasmic.app/"}
+                  platform={"nextjs"}
+                >
+                  {"Instagram"}
+                </p.PlasmicLink>
+              </p.Stack>
             </div>
           ) : null}
         </p.Stack>
@@ -302,8 +341,8 @@ function PlasmicFooter__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "textInput", "textbox", "copyrightSocialLanguage"],
-  textInput: ["textInput", "textbox"],
+  root: ["root", "makeAReservation", "copyrightSocialLanguage"],
+  makeAReservation: ["makeAReservation"],
   copyrightSocialLanguage: ["copyrightSocialLanguage"]
 };
 
@@ -336,7 +375,7 @@ export const PlasmicFooter = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    textInput: makeNodeComponent("textInput"),
+    makeAReservation: makeNodeComponent("makeAReservation"),
     copyrightSocialLanguage: makeNodeComponent("copyrightSocialLanguage"),
     // Metadata about props expected for PlasmicFooter
     internalVariantProps: PlasmicFooter__VariantProps,

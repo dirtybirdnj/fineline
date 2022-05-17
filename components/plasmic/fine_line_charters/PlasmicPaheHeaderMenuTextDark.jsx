@@ -81,7 +81,7 @@ function PlasmicPaheHeaderMenuTextDark__RenderFunc(props) {
               sty.link___8FU5T
             )}
             component={Link}
-            href={"/aboutus"}
+            href={"/about"}
             platform={"nextjs"}
           >
             {"About"}
@@ -121,7 +121,7 @@ function PlasmicPaheHeaderMenuTextDark__RenderFunc(props) {
               sty.link___0Znz
             )}
             component={Link}
-            href={"/aboutus"}
+            href={"/about"}
             platform={"nextjs"}
           >
             {"Contact"}
@@ -135,7 +135,7 @@ function PlasmicPaheHeaderMenuTextDark__RenderFunc(props) {
               sty.link___1Tywp
             )}
             component={Link}
-            href={"/aboutus"}
+            href={"/about"}
             platform={"nextjs"}
           >
             {"Make a Reservation"}

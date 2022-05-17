@@ -100,7 +100,7 @@ function PlasmicShop__RenderFunc(props) {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__q9Vu
+                          sty.text___37Omj
                         )}
                       >
                         {"No collection found!"}
@@ -111,7 +111,7 @@ function PlasmicShop__RenderFunc(props) {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__nd6Vi
+                          sty.text___8S0S
                         )}
                       >
                         {"Loading..."}
@@ -147,7 +147,7 @@ function PlasmicShop__RenderFunc(props) {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__c9Bim
+                          sty.text__dsUZh
                         )}
                       >
                         {"No collection found!"}
@@ -158,7 +158,7 @@ function PlasmicShop__RenderFunc(props) {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text___3Pn1G
+                          sty.text___3Xc8D
                         )}
                       >
                         {"Loading..."}
@@ -193,7 +193,7 @@ function PlasmicShop__RenderFunc(props) {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__ob2OR
+                            sty.text__qnauO
                           )}
                         >
                           {"No product found!"}
@@ -204,7 +204,7 @@ function PlasmicShop__RenderFunc(props) {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__ya5Iq
+                            sty.text__qe3Sf
                           )}
                         >
                           {"Loading..."}
